@@ -1,0 +1,45 @@
+<!DOCTYPE>
+<html>
+<!--Asynchronous Non Uniform DVD logo-->
+<!--https://codepen.io/achristian/pen/WbzgMx-->
+<head>
+<style>
+
+body{
+  background-color: black;
+
+}
+#logo{
+  color:purple;
+  position:absolute;
+  font-weight: bolder;
+  font-style:italic;
+  font-size:40px;
+  animation: moveX 2s linear infinite alternate, moveY 3.4s linear infinite alternate;
+
+}
+
+
+@keyframes moveX{
+  from{ left:0;}
+  to{left:95%;}
+}
+
+@keyframes moveY{
+  from{top:0;}
+  to{top:90%;}
+}
+</style>
+
+</head>
+<body>
+
+<div id="logo">
+  dvd
+</div>
+
+</body>
+
+
+
+</html>
